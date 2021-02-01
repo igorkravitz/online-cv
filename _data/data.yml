@@ -7,17 +7,18 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Igor Kravitz
-    tagline: Back End Developer
+    name: Игорь Кравец
+    tagline: Backend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: Igor.Kravitz@yahoo.com
     phone: +373-79-88-98-26
+    phone: +7-950-000-12-59
     website: igorkravitz.github.io #do not add http://
     linkedin: igor-kravitz
     github: igorkravitz
-    telegram: # add your nickname without '@' sign
+    telegram: igorkravitz
     gitlab:
     bitbucket:
     twitter: '@igorkravitz'
@@ -26,87 +27,84 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: Russian
-        level: Native
-
-      - idiom: English
-        level: Elementary
-
-      - idiom: Romanian
-        level: Intermediate
+      title: Языки
+      list:
+      - idiom: Русский
+        level: родной
+      - idiom: Английский
+        level: начальный
+      - idiom: Молдавский
+        level: средний
 
     interests:
-      - item: Swimming
+      title: Увлечения
+      list:
+      - item: Плавание
         link:
-
-      - item: Cycling
+      - item: Езда на велосипеде
         link:
 
 career-profile:
-    title: Career Profile
+    title:  Резюме
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Начинающий программист, intern, junior, Backend, .NET, C#, Node.js
+      Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
+      знакомство с технологиями C#, JavaScript, Node.js.
 education:
-    - degree: MSc in Computer Science
-      university: University of Tiraspol
-      time: 2000 - 2005
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      title: Обучение
+      schools:
+      - degree: Инженер вычислительных сетей
+        university: Приднестровский Государственный Университет
+        time: 2000 - 2005
+        details: |
+          Инженерно-технический факультет, кафедра ВКСС. Изучены языки C++, Prolog, Delphi, 
+          основы схемотехники, основы машинной логики, и другие дисциплины.
+          Защита диплома Конвертер контекстно-свободных языков.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      title: Опыт работы
+      firms:
+      - role: Lead Developer      
+        time: 2015 - Present
+        company: Startup Hubs, San Francisco
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+      - role: Senior Software Engineer
+        time: 2014 - 2015
+        company: Google, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - role: UI Developer
+        time: 2012 - 2014
+        company: Amazon, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
 projects:
-    title: Projects
+    title: Проекты
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
+      знакомство с технологиями C#, JavaScript, Node.js.
     assignments:
       - title: Velocity
         link: "#hook"
@@ -129,7 +127,7 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Книги, которые я изучил
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
@@ -151,23 +149,26 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Навыки &amp; опыт
 
     toolset:
       - name: C#
-        level: 10%
+        level: 5%
 
       - name: Javascript & jQuery
         level: 20%
 
       - name: Angular
-        level: 10%
+        level: 5%
+
+      - name: TypeScript
+        level: 5%
 
       - name: HTML5 & CSS
-        level: 20%
+        level: 10%
 
       - name: Java
-        level: 15%
+        level: 10%
 
       - name: 1C
         level: 80%

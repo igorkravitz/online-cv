@@ -1,9 +1,9 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
-url: 'https://igorkravitz.github.io/'
-baseurl: '/' #change it according to your repository name
+title: Игорь Кравец Backend developer Software engenier
+url: ''
+baseurl: '' #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
@@ -29,6 +29,7 @@ compress_html: # - http://jch.penibelst.de/
     envs: development
 
 # Development Settings
-port: 4000
-host: 0.0.0.0
+port: 3000
+host: localhost
 safe: false
+#livereload: true
