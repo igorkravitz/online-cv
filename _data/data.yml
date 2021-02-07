@@ -13,10 +13,11 @@ sidebar:
 
     # Sidebar links
     email: Igor.Kravitz@yahoo.com
-    phone: +373-79-88-98-26
-    phone: +7-950-000-12-59
+    phone:
+      - number: +373-79-88-98-26
+      - number: +7-950-000-12-59
     website: igorkravitz.github.io #do not add http://
-    linkedin: igor-kravitz
+    linkedin: игорь-кравец-421aa011a
     github: igorkravitz
     telegram: igorkravitz
     gitlab:
@@ -33,8 +34,6 @@ sidebar:
         level: родной
       - idiom: Английский
         level: начальный
-      - idiom: Молдавский
-        level: средний
 
     interests:
       title: Увлечения
@@ -63,90 +62,73 @@ education:
 experiences:
       title: Опыт работы
       firms:
-      - role: Lead Developer      
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Самообучение - стажировка (intern)
+        time: 2019 - Настоящее время
+        company: Home office, Tiraspol
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Изучил синтаксис JavaScript, базовые понятия создания сайта на базе Expess.js,
+          mustache, jekyll, liquid, методы управления пакетами, разработку и 
+          управление в программах nano, git-bash, migw-64, cygwin, работа в ОС Ubuntu 18.4. Освоил 
+          следующий навыки
+            - разработка JavaScript native
+            - маршрутизация в Express.js
+            - функциональное тестирование zombie.js
+            - модульное тестирование mocha.js
+            - TDD, BDD
+            - подключение, обновление пакетов Node.js
+            - работа с файлами package.json, Gruntfile.js
+      - role: Самообучение - стажировка (intern)
+        time: 2017 - 2019
+        company: Home office, Tiraspol
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Изучил базовые понятия Java, изучил инструменты разработки 
+          Visual Studio Code, NetBeans, Eclipse, Notepad++. Освоил следующие
+          навыки
+            - отладка кода
+            - настройка фунционала IDE,
+            - установка настройка Apache, Apache Tomcat, использование CGI
+            - интеграция GIT в IDE
+            - установка, настройка, администрирование PostgreSQL
 projects:
     title: Проекты
     intro: >
       Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
       знакомство с технологиями C#, JavaScript, Node.js.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: learn.javascript.ru
+        link: "javaScript.html"
+        tagline: Решение задач в рамках изучения основ JavaScript (ECMAScript 2017)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Изучение HTML5, CSS, мой первый сайт
+        link: "https://github.com/igorkravitz/igorkravitz_archive"
+        tagline: "Разработал сайт для изучения HTML5, CSS, HTML media, XMLHtthpRequest"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Изучение Node.js, Express
+        link: "https://github.com/igorkravitz/meadowlark-4.0"
+        tagline: |
+          Изучил технологии разработки и возможности сайта на базе Express.js, 
+          изучил различные пакеты npm для работы сайта, написал функциональные и модульные тесты
 
 publications:
     title: Книги, которые я изучил
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      В данном списке указаны книги, которые помогли мне улучшить свои навыки программирования,
+      познакомили с новыми языками программирования, управления проектами, новыми фреймворками.
     papers:
-      - title: The Art of Computer Programming
+      - title: Путь камикадзе
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Эдвард Йордон
+        conference: Лори, 2003
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: Java 8. Руководство для начинающих
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Герберт Шилдт
+        conference: Издательский дом "Вильямс, 2015" 
 
-      - title: A syntax directed compiler for Algol 60
+      - title: Веб-разработка с применением Node и Express. Полноценное использование стека JavaScript
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Итан Браун
+        conference: Питер, 2017
 
 skills:
     title: Навыки &amp; опыт
