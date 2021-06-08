@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: Igor.Kravitz@yahoo.com
     phone:
-      - number: +373-79-88-98-26
+      - number: +373-79-54-21-76
       - number: +7-950-000-12-59
     website: igorkravitz.github.io #do not add http://
     linkedin: игорь-кравец-421aa011a
@@ -46,9 +46,9 @@ sidebar:
 career-profile:
     title:  Резюме
     summary: |
-      Начинающий программист, intern, junior, Backend, .NET, C#, Node.js
+      Начинающий программист, junior, backend developer, .NET, VB.NET, C#, VBA, Node.js
       Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
-      знакомство с технологиями C#, JavaScript, Node.js.
+      знакомство с технологиями C#, VB.NET, VBA, JavaScript, Node.js.
 education:
       title: Обучение
       schools:
@@ -63,13 +63,23 @@ experiences:
       title: Опыт работы
       firms:
       - role: Самообучение - стажировка (intern)
-        time: 2019 - Настоящее время
+        time: 2020 - Настоящее время
+        company: Home office, Tiraspol
+        details: |
+          Изучил синтаксис C#, VB.NET, основы работы в Visual Studio. Освоил
+          следующие навыки
+            - разработка классов, статических, абстрактных, частичных
+            - интерфейсы, обобщенные типы
+            - основы макросов VBA for Excel, Word
+            - разработка тестового приложения Windows Desktop Calculator
+      - role: Самообучение - стажировка (intern)
+        time: 2019 - 2020
         company: Home office, Tiraspol
         details: |
           Изучил синтаксис JavaScript, базовые понятия создания сайта на базе Expess.js,
           mustache, jekyll, liquid, методы управления пакетами, разработку и 
           управление в программах nano, git-bash, migw-64, cygwin, работа в ОС Ubuntu 18.4. Освоил 
-          следующий навыки
+          следующие навыки
             - разработка JavaScript native
             - маршрутизация в Express.js
             - функциональное тестирование zombie.js
@@ -95,6 +105,12 @@ projects:
       Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
       знакомство с технологиями C#, JavaScript, Node.js.
     assignments:
+      - title: Калькулятор Windows 7
+        link: "https://github.com/igorkravitz/Calculator.git"
+        tagline: |
+            Разработка тестового приложения Windows Desktop в рамках изучения основ VB.NET,
+            Visual Studio
+
       - title: learn.javascript.ru
         link: "javaScript.html"
         tagline: Решение задач в рамках изучения основ JavaScript (ECMAScript 2017)
@@ -134,8 +150,11 @@ skills:
     title: Навыки &amp; опыт
 
     toolset:
+      - name: VB.NET
+        level: 20%
+
       - name: C#
-        level: 5%
+        level: 10%
 
       - name: Javascript & jQuery
         level: 20%
