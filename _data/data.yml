@@ -46,9 +46,10 @@ sidebar:
 career-profile:
     title:  Резюме
     summary: |
-      Начинающий программист, junior, backend developer, .NET, VB.NET, C#, VBA, Node.js, Ruby
+      Начинающий программист, junior, backend developer, .NET, VB.NET, C#, VBA, Node.js, 
+      Ruby, Perl
       Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
-      знакомство с технологиями C#, VB.NET, VBA, JavaScript, Node.js, Ruby.
+      знакомство с технологиями C#, VB.NET, VBA, JavaScript, Node.js, Ruby, Perl.
 education:
       title: Обучение
       schools:
@@ -115,8 +116,14 @@ projects:
     title: Проекты
     intro: >
       Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
-      знакомство с технологиями C#, JavaScript, Node.js.
+      знакомство с технологиями C#, JavaScript, Node.js, Ruby, Perl.
     assignments:
+      - title: Ruby koans
+        link: "https://github.com/igorkravitz/ruby_koans"
+        tagline: |
+          Изучение синтаксиса Ruby, особенностей разработки ООП, основных объектов
+          в рамках решения задач тестирования assert Ruby koans
+
       - title: Калькулятор Windows 7
         link: "https://github.com/igorkravitz/Calculator.git"
         tagline: |
@@ -162,6 +169,12 @@ skills:
     title: Навыки &amp; опыт
 
     toolset:
+      - name: Perl
+        level: 10%
+
+      - name: Ruby
+        level: 15%
+
       - name: VB.NET
         level: 20%
 
@@ -169,7 +182,7 @@ skills:
         level: 10%
 
       - name: Javascript & jQuery
-        level: 20%
+        level: 15%
 
       - name: Angular
         level: 5%
