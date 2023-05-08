@@ -46,9 +46,9 @@ sidebar:
 career-profile:
     title:  Резюме
     summary: |
-      Начинающий программист, junior, backend developer, .NET, VB.NET, C#, VBA, Node.js
+      Начинающий программист, junior, backend developer, .NET, VB.NET, C#, VBA, Node.js, Ruby
       Опыт создания учебных приложений. Базовые знания основных технологий. Начальное
-      знакомство с технологиями C#, VB.NET, VBA, JavaScript, Node.js.
+      знакомство с технологиями C#, VB.NET, VBA, JavaScript, Node.js, Ruby.
 education:
       title: Обучение
       schools:
@@ -63,7 +63,19 @@ experiences:
       title: Опыт работы
       firms:
       - role: Самообучение - стажировка (intern)
-        time: 2020 - Настоящее время
+        time: 2021 - Настоящее время
+        company: Home office, Tiraspol
+        details: |
+          Изучил синтаксис Ruby, Perl, основы работы Linux (WSL2). Освоил 
+          следующие навыки
+            - развертывание подсистемы WSL2, добавление, настройка 
+              дополнительных пакетов
+            - настройка Visual Studio Code для работы с WSL2
+            - добавление, настройка необходимых расширений VS Code
+            - написание простых скриптов Ruby, Perl
+            - решил упражнения по проекту Ruby Koans
+      - role: Самообучение - стажировка (intern)
+        time: 2020 - 2021
         company: Home office, Tiraspol
         details: |
           Изучил синтаксис C#, VB.NET, основы работы в Visual Studio. Освоил

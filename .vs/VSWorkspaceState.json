@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\js",
+    "\\_data",
+    "\\_includes",
+    "\\_layouts"
   ],
+  "SelectedNode": "\\_data\\data.yml",
   "PreviewInSolutionExplorer": false
 }
