@@ -64,7 +64,21 @@ experiences:
       title: Опыт работы
       firms:
       - role: Самообучение - стажировка (intern)
-        time: 2021 - Настоящее время
+        time: 2023 - Настоящее время
+        company: Home office, Tiraspol
+        details: |
+          Изучил синтаксис Ruby. Освоил 
+          следующие навыки
+            - типы данных, массивы, хеши
+            - синтаксис
+            - введение в ООП
+            - написание простых скриптов, небольших проектов Ruby в консоли, в рамках задач
+              по материалам книги
+            - создавать и редактировать тесты RSpec
+            - работа с менеджером версий RVM
+            - установка, настройка Docker, подключение контейнеров, работа в контейнерах 
+      - role: Самообучение - стажировка (intern)
+        time: 2021 - 2023
         company: Home office, Tiraspol
         details: |
           Изучил синтаксис Ruby, Perl, основы работы Linux (WSL2). Освоил 
@@ -119,10 +133,16 @@ projects:
       знакомство с технологиями C#, JavaScript, Node.js, Ruby, Perl.
     assignments:
       - title: Ruby koans
+        link: "https://github.com/igorkravitz/ruby_for_romantics"
+        tagline: |
+            Изучение синтаксиса Ruby, выполнение тестовых заданий в рамках изучения 
+            книги Ruby для романтиков, Роман Пушкин, 2021
+      
+      - title: Ruby koans
         link: "https://github.com/igorkravitz/ruby_koans"
         tagline: |
-          Изучение синтаксиса Ruby, особенностей разработки ООП, основных объектов
-          в рамках решения задач тестирования assert Ruby koans
+            Изучение синтаксиса Ruby, особенностей разработки ООП, основных объектов
+            в рамках решения задач тестирования assert Ruby koans
 
       - title: Калькулятор Windows 7
         link: "https://github.com/igorkravitz/Calculator.git"
@@ -141,8 +161,8 @@ projects:
       - title: Изучение Node.js, Express
         link: "https://github.com/igorkravitz/meadowlark-4.0"
         tagline: |
-          Изучил технологии разработки и возможности сайта на базе Express.js, 
-          изучил различные пакеты npm для работы сайта, написал функциональные и модульные тесты
+            Изучил технологии разработки и возможности сайта на базе Express.js, 
+            изучил различные пакеты npm для работы сайта, написал функциональные и модульные тесты
 
 publications:
     title: Книги, которые я изучил
@@ -150,6 +170,11 @@ publications:
       В данном списке указаны книги, которые помогли мне улучшить свои навыки программирования,
       познакомили с новыми языками программирования, управления проектами, новыми фреймворками.
     papers:
+      - title: Ruby для романтиков
+        link: "#"
+        authors: Роман Пушкин
+        conference: Самиздат, 2021
+      
       - title: Путь камикадзе
         link: "#"
         authors: Эдвард Йордон
@@ -173,10 +198,13 @@ skills:
         level: 10%
 
       - name: Ruby
-        level: 15%
+        level: 20%
 
       - name: VB.NET
         level: 20%
+      
+      - name: LUA
+        level: 10%  
 
       - name: C#
         level: 10%
@@ -184,16 +212,7 @@ skills:
       - name: Javascript & jQuery
         level: 15%
 
-      - name: Angular
-        level: 5%
-
-      - name: TypeScript
-        level: 5%
-
       - name: HTML5 & CSS
-        level: 10%
-
-      - name: Java
         level: 10%
 
       - name: 1C
